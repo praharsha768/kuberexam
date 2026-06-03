@@ -68,7 +68,7 @@ vi pod1.yml
 kind: Pod
 apiVersion: v1
 metadata:
-  name: myfirspod
+  name: myfirstpod
 spec:
   containers:
     - name: apachecon
@@ -143,3 +143,8 @@ kubectl get services
  
 curl <<ip address of demoservices>>:8080
 o/p it works*/
+
+FROM eclipse-temurin:8
+EXPOSE 80
+COPY target/devops-integration.jar devops-integration.jar
+ENTRYPOINT ["java","-jar","/devops-integration.jar"]
