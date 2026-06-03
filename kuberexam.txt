@@ -47,7 +47,7 @@ RuHXjG53Qkr4nCF9Yh5Y+ByiTY7xKXxH5HpWj/zO_
 
 
 6.eksctl create cluster \
---name my-eks-pra \
+--name my-eks-prahaa \
 --region us-east-1 \
 --nodegroup-name standard-workers \
 --node-type t3.medium \
