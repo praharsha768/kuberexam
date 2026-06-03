@@ -42,6 +42,9 @@ eksctl version
 
 
 5.aws configure
+A_KIA53A44ZBNPLPBTUWE
+R_uHXjG53Qkr4nCF9Yh5Y+ByiTY7xKXxH5HpWj/zO 
+
 
 6.eksctl create cluster \
 --name my-eks-praha \
